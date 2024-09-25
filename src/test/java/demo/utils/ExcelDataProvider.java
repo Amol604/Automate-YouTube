@@ -1,5 +1,7 @@
 package demo.utils;
 
+import java.io.IOException;
+
 import org.testng.annotations.DataProvider;
 
 public class ExcelDataProvider {
@@ -12,5 +14,9 @@ public class ExcelDataProvider {
     }
     public static void main(String args[]){
         excelData();
+    }
+    public Object[][] getData() throws IOException {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getData'");
     }
 }
